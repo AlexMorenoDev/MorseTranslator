@@ -9,7 +9,7 @@ def get_key_from_value(d, target):
             return key
     return None
 
-# It can decode natural text and morse code
+# It can translate natural text to morse code and vice versa
 def morse_decoder(text):
     morse_alphabet = {
         "A": ".-", "B": "-...", "C": "-.-.", "D": "-..",
